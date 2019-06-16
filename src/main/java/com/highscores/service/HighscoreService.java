@@ -15,6 +15,6 @@ public class HighscoreService implements HighscoreServiceI{
 
     @Override
     public List<Highscore> findAll(){
-        return (List<Highscore>) highscoreRepository.findAll();
+        return highscoreRepository.findAllByOrderByScoreDesc();
     }
 }
