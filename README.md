@@ -5,12 +5,21 @@ Spring Boot RESTful application created with Hibernate and Jetty embedded to dis
 
 #### Available APIS:
 
-GET: /api/highscores
+<p>GET: /api/highscores</p>
+<a href="doc/img/getAllHighscores.png"><img src="doc/img/getAllHighscores.png" height="140" width="280" ></a>
+<br><br>
 
-GET: /api/highscores/{id}
+<p>GET: /api/highscores/{id}</p>
+<a href="doc/img/getAllHighscores.png"><img src="doc/img/getAllHighscores.png" height="140" width="280" ></a>
+<br><br>
 
-POST: /api/highscores - Params -> name, score
+<p>POST: /api/highscores - Params -> name, score</p>
+<a href="doc/img/getAllHighscores.png"><img src="doc/img/getAllHighscores.png" height="140" width="280" ></a>
+<br><br>
 
-POST: /api/highscores - Params -> id, name, score
+<p>POST: /api/highscores - Params -> id, name, score</p>
+<a href="doc/img/getAllHighscores.png"><img src="doc/img/getAllHighscores.png" height="140" width="280" ></a>
+<br><br>
 
-DELETE: /api/highscores/{id}
+<p>DELETE: /api/highscores/{id}</p>
+<a href="doc/img/getAllHighscores.png"><img src="doc/img/getAllHighscores.png" height="140" width="280" ></a>
