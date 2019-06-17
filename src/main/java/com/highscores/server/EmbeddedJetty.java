@@ -39,10 +39,14 @@ public class EmbeddedJetty {
 
         server.start();
         LOGGER.info("Server started at host {} port {}", InetAddress.getLocalHost().getHostAddress(), port);
-        LOGGER.info("The index page can be accessed by using the link: {}:[]/[]",
+        LOGGER.info("The index page can be accessed by using the link: {}:{}/{}",
                 InetAddress.getLocalHost().getHostAddress(),
                 port,
-                "bak");
+                "highscores");
+        LOGGER.info("The apis can be accessed by using the link: {}:{}/{}",
+                InetAddress.getLocalHost().getHostAddress(),
+                port,
+                "highscores/api/");
         server.join();
     }
 
